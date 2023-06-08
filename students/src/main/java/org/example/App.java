@@ -15,7 +15,7 @@ public class App {
                         key.getTalent(), value));
     }
 
-    private static HashMap<Student, Skill> fillList() {
+    public static HashMap<Student, Skill> fillList() {
         HashMap<Student, Skill> students = new HashMap<>();
         ITypeStudent firstTypeStudent = new FirstTypeStudent();
         for (int i = 0; i < STUDENTS_FIRST_TYPE; i++) {

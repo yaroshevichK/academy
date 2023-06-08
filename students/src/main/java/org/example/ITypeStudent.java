@@ -1,5 +1,5 @@
 package org.example;
 
 public interface ITypeStudent {
-    void getLearnTime(Double talent, Skill skill);
+    void getLearnTime(double talent, Skill skill);
 }
